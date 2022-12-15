@@ -1,0 +1,30 @@
+.main{
+    background-color: rgb(253, 162, 76);
+}
+
+.textmessage{
+    color: #ffffff;
+    font-family: myFirstFont;
+}
+
+.textcontent{
+    color: #ffffff;
+    font-family: mysecondFont;
+    font-size: 24px;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(Bulgatti-xgMV.ttf);
+  }
+
+  @font-face {
+    font-family: mysecondFont;
+    src: url(SourceSansPro-Bold.ttf);
+  }
+
+  #containerIntro h1,
+#containerIntro p {
+    display: inline;
+    margin-top: 16px;
+}
